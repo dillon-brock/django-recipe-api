@@ -43,4 +43,5 @@ class UserAdmin(BaseUserAdmin):
   ]
 
 
-admin.site.register(models.User, UserAdmin)  # pass in UserAdmin to get settings from class above
+# pass in UserAdmin to get settings from class above
+admin.site.register(models.User, UserAdmin)
