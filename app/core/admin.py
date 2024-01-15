@@ -45,3 +45,4 @@ class UserAdmin(BaseUserAdmin):
 
 # pass in UserAdmin to get settings from class above
 admin.site.register(models.User, UserAdmin)
+admin.site.register(models.Recipe)
